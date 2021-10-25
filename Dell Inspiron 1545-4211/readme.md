@@ -9,9 +9,9 @@ Install sees wired networking but not wireless
 
 Select ssh to be installed
 
-Seemed to crash trying to reboot at end. 
+Seemed to crash trying to reboot at end.
 
-After holding power button down ad booting the install everything seems ok.
+After holding power button down and booting the install everything seems ok.
 
 apt update && apt upgrade
 
@@ -26,16 +26,10 @@ lspci
 
 apt install bcmwl-kernel-source
 
-Now I have  wlp12s0
+Now I have wlp12s0
 
-created netplan config for it, reboot.
+Created netplan config for it, reboot.
 
-we have a working wifi connection.
+We have a working wifi connection.
 
 Stuck on boot waiting for network, plugged eth back in to boot and added optional: true in netplan for both interfaces.
-
-
-
-
-
-
